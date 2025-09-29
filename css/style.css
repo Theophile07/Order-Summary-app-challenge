@@ -26,9 +26,7 @@ body{
     top: 50%;
     transform: translate(-50%, -50%);
 }
-.card-content .hero{
-    
-}
+
 .card-content .hero img{
     border-radius: 15px 15px 0 0;
     width: 100%;
@@ -54,9 +52,7 @@ body{
 .card-content .plan{
     padding: 20px;
 }
-.button{
-    /* padding: 20px; */
-}
+
 
 .card-content .side-left span{
     display: block;
@@ -71,7 +67,9 @@ body{
     margin-right: 30px;
     margin-bottom: 5px;
     border-radius: 10px;
-}.card-content .side-left{
+}
+
+.card-content .side-left{
     display: flex;
     gap: 10px;
 }
@@ -93,8 +91,6 @@ a, a:visited, a:hover, a:active{
 div .button{
     display: flex;
     flex-direction: column;
-    /* margin: 5px; */
-    
     padding: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -116,4 +112,88 @@ div .button{
 }
 .button p{
     font-weight: 700;
+}
+
+
+/* ---------------------------------------------------------- */
+/* Responsive design */
+
+@media screen and (max-width:375px) {
+    .card-content{
+    width: 300px; 
+    background-color: white;
+    border-radius: 15px; 
+    /* padding-bottom: 20px; */
+    font-family: 'Red Hat Display';
+    box-shadow:   0px 2px 18px rgb(218, 216, 216);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.card-content .hero img{
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+}
+.card-content .details{
+    text-align: center;
+}
+
+.card-content .details{
+    text-align: center;
+    font-size: 16px;
+}
+.card-content .details p{
+    color: hsl(224, 23%, 55%);
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+.card-content .plan{
+    padding: 10px;
+}
+
+
+.card-content .side-left span{
+    display: block;
+}
+.card-content .plan{
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 2px;
+    font-size: 14px;
+}
+.card-content .side-left{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+div .button{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 14px;
+    
+}
+.button .btn-pay{
+    padding: 14px;
+    font-family: 'Red Hat Display';
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    border-radius: 10px;
+    color: hsl(225, 100%, 98%);
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
 }

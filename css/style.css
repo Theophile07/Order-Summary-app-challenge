@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url(/fonts/Red_Hat_Display/RedHatDisplay-VariableFont_wght.ttf);
+}
+body{
+    background-image: url('/images/pattern-background-desktop.svg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+
+.card-content{
+    width: 400px; 
+    background-color: white;
+    border-radius: 15px; 
+    padding-bottom: 20px;
+    font-family: 'Red Hat Display';
+    box-shadow:   0px 2px 18px rgb(218, 216, 216);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.card-content .hero{
+    
+}
+.card-content .hero img{
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+}
+.card-content .details{
+    text-align: center;
+    
+    
+}
+.card-content .details h2{
+    font-weight: 900;
+    padding-top: 20px;
+
+}
+.card-content .details p{
+    color: hsl(224, 23%, 55%);
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    
+}
+.card-content .plan{
+    padding: 20px;
+}
+.button{
+    /* padding: 20px; */
+}
+
+.card-content .side-left span{
+    display: block;
+}
+.card-content .plan{
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}.card-content .side-left{
+    display: flex;
+    gap: 10px;
+}
+.text .txt1{
+    font-weight: 900;
+}
+.text .txt2{
+    font-weight: 600;
+    color: hsl(224, 23%, 55%);
+}
+.plan .side-left a{
+    font-weight: 600;
+    color: red;
+}
+a, a:visited, a:hover, a:active{
+    font-weight: 700;
+    color: hsl(245, 75%, 52%);
+}
+div .button{
+    display: flex;
+    flex-direction: column;
+    /* margin: 5px; */
+    
+    padding: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    
+}
+.button .btn-pay{
+    padding: 14px;
+    font-family: 'Red Hat Display';
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    border-radius: 10px;
+    color: hsl(225, 100%, 98%);
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.button .btn-pay:hover{
+    cursor:pointer;
+}
+.button p{
+    font-weight: 700;
+}

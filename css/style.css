@@ -36,7 +36,7 @@ body{
     
     
 }
-.card-content .details h2{
+.card-content .details h1{
     font-weight: 900;
     padding-top: 20px;
 
@@ -197,3 +197,4 @@ div .button{
 }
 
 }
+
